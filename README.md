@@ -2,7 +2,11 @@
 
 Ceci est un support de cours sur la parallélisation.
 
-Les différents scripts executables peuvent être lancés de la manière suivante:
+
+## Dépendances
+
+- python
+- numpy
 
 ## `task.py`
 
