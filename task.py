@@ -14,3 +14,7 @@ def task(size: int) -> int:
     end = perf_counter()
 
     return end - start
+
+
+if __name__ == "__main__":
+    print(task(6000))
