@@ -64,3 +64,12 @@ callback: 20.488327484000138
 20.33557166599985
 total: 20.79609276799988
 ```
+
+## `async_web.py`
+
+Télécharge de manière asynchrone toutes les ressources sur la page `https://www.upssitech.eu/`:
+
+```
+$ ./async_web.py
+total: 5.230209101000128
+```
