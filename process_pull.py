@@ -7,7 +7,7 @@ from time import perf_counter
 from task import task
 
 
-def pool(count: int, size: int):
+def process_pool(count: int, size: int):
     start = perf_counter()
     with ProcessPoolExecutor() as executor:
         for t in executor.map(task, [size] * count):
@@ -18,4 +18,4 @@ def pool(count: int, size: int):
 
 
 if __name__ == "__main__":
-    print("total:", pool(20, 5_000))
+    print("total:", process_pool(20, 5_000))

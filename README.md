@@ -30,12 +30,12 @@ $ ./sub.py
 total: 31.334230673000093
 ```
 
-## `pool.py`
+## `process_pool.py`
 
 Ce programme lance 20 sous process dans un pool:
 
 ```
-$ ./pool.py
+$ ./process_pool.py
 100.63667821000035
 47.19717385599961
 111.27389448000031
