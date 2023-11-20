@@ -73,3 +73,13 @@ Télécharge de manière asynchrone toutes les ressources sur la page `https://w
 $ ./async_web.py
 total: 5.230209101000128
 ```
+
+## `thread_pull.py`
+
+```
+./thread_pull.py
+137.60200473399982
+136.05074676300046
+[…]
+total: 141.05398924599922
+```
