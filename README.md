@@ -74,10 +74,10 @@ $ ./async_web.py
 total: 5.230209101000128
 ```
 
-## `thread_pull.py`
+## `thread_pool.py`
 
 ```
-./thread_pull.py
+./thread_pool.py
 137.60200473399982
 136.05074676300046
 […]
