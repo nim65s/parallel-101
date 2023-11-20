@@ -4,7 +4,7 @@ from subprocess import Popen
 from time import perf_counter
 
 
-def sub(count: int) -> int:
+def sub(count: int) -> float:
     start = perf_counter()
     processes = [Popen(["./task.py"]) for _ in range(count)]
     for p in processes:

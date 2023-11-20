@@ -5,7 +5,7 @@ from time import perf_counter
 import numpy as np
 
 
-def task(size: int) -> int:
+def task(size: int) -> float:
     a = np.random.rand(size, size)
     b = np.random.rand(size)
 
