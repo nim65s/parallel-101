@@ -43,3 +43,24 @@ $ ./pool.py
 […]
 total: 112.40665133400034
 ```
+
+## `multi.py`
+
+Ce programme lance 6 sous-process dans un pool, et affiche les résultats les plus rapides en premier:
+
+```
+$ ./multi.py
+callback: 20.27123352700005
+callback: 20.33557166599985
+callback: 20.341369764000092
+callback: 20.344183653000073
+20.344183653000073
+20.341369764000092
+20.27123352700005
+callback: 20.48627573800013
+callback: 20.488327484000138
+20.488327484000138
+20.48627573800013
+20.33557166599985
+total: 20.79609276799988
+```
